@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbas | Inicio</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="navbox">
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="header-content container">
+                <div class="header-title">
+                    <h1>
+                        Barba`s
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta velit libero voluptatum
+                        suscipit officiis architecto assumenda nesciunt corporis quod aspernatur, facere aliquam? Ipsa
+                        harum fugiat nihil asperiores tempore inventore corporis.
+                    </p>
+                </div>
+                <div class="logo">
+                    <img src="./imagem/barbershop-logo.jpg" alt="logo">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-yellow container">
+        <div class="contact">
+            <div class="contact-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14700.966763688606!2d-43.551622949999995!3d-22.9044546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1727395062625!5m2!1spt-BR!2sbr"
+                    width="98%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div>
+                    <p>
+                        <b>Rua Barbas Cortadas, 789, Campo Grande</b>
+                    </p>
+                    <p>
+                        Tel: <span class="bold numberPhone">21 5555-55555</span>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <!-- <label for="nome">Nome</label> -->
+                        <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <!-- <label for="email">E-mail</label> -->
+                        <input type="text" name="email" id="email" placeholder="E-mail ou telefone" required>
+                    </div>
+                    <div class="form-group">
+                        <select name="assunto" aria-placeholder="Assunto">
+                            <option disabled selected>Assunto</option>
+                            <option value="contato">Contato</option>
+                            <option value="reclame">reclamação</option>
+                            <option value="sugent">Sugestão</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="mensagem" id="mensagem" rows="5" placeholder="Mensagem" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <!-- <input type="submit" value="Enviar"> -->
+                        <button>Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+:root {
+  --yellow: #fcc82b;
+  --black: #000000;
+  --white: #ffffff;
+  --shadow: rgba(0, 0, 0, 0.5);
+  --font-size: 14pt;
+  --font-primary: "nunito";
+  --font-secondary: "roboto";
+}
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  width: 100%;
+  min-width: 360px;
+  max-width: 1280px;
+}
+
+.bold{
+  font-weight: 600;
+}
+
+.bolder{
+  font-weight: 900;
+}
