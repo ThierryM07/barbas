@@ -1,0 +1,17 @@
+@import "./form.css";
+
+.form-access {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 72px);
+    background-color: var(--shadow);
+}
+
+.form-access form {
+    width: 300px;
+    border: solid 1px var(--gray);
+    border-radius: 8px;
+    background-color: var(--yellow);
+    padding: 20px;
+}
