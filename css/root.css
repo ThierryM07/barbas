@@ -7,6 +7,10 @@
   --font-size: 14pt;
   --font-primary: "Nunito", sans-serif;
   --font-secondary: "Roboto", sans-serif;
+
+  /* Bootstrap */
+  --bs-primary: var(--yellow);
+  --bs-secondary: #b19645;
 }
 
 /* Reset: limpa stilo dos navegadores */
@@ -22,10 +26,9 @@ body {
   font-family: var(--font-primary);
   margin-top: 65px;
   background-image: url(../imagem/bglogin.jpg);
-  /* background-repeat: no-repeat; */
-  /* background-position: bottom center;
+  background-position: bottom center;
   background-size: contain;
-} */
+}
 
 /* Itens comuns no site */
 /* .container {

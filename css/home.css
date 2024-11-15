@@ -179,35 +179,38 @@ header .logo {
 .card-content:hover>* {
     transform: translateY(0px);
 } */
-@media (max-width:760px) {
+
+@media (max-width:768px) {
     .header-content {
         flex-direction: column-reverse;
     }
-    .header-title
-    header .logo{
+
+    .header-title,
+    header .logo {
         width: 100%;
         padding: 20px;
-        text-align: center;   
+        text-align: center;
     }
-    .contact{
+
+    .contact {
         display: flex;
         flex-direction: column;
     }
+
     .contact-map,
-    .contact-form{
+    .contact-form {
         padding: 40px;
         width: 100%;
     }
-    
+
 }
+
 @media print {
-    img{
+    img {
         display: none;
     }
-    .contact{
+
+    .contact {
         display: none;
-
     }
-
-    
 }

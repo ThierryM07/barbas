@@ -1,18 +1,24 @@
+import { validateEmail, validateName, validatePassword, validateTel } from './service/validator.js'
+import { navBarComponentTemplate } from "./../components/nav-component/nav-component.js"
+import {cardComponent} from "./../components/card-component/card-component.js"
 
-navBarComponent()
+navBarComponentTemplate()
+cardComponent()
+validateName()
+validateEmail()
+validateTel()
+validatePassword()
 
-function navBarComponent() {
-    const element = document.getElementById('navbar-component')
-    const navbar = `
-        <nav class="navbar">
-            <ul class="nav-links">
-                <li><a href="index.html">Início</a></li>
-                <li><a href="index.html#services">Serviços</a></li>
-                <li><a href="index.html#about">Sobre Nós</a></li>
-                <li><a href="index.html#contact">Contato</a></li>
-                <li><a href="login.html">Entrar</a></li>
-            </ul>
-        </nav>`
-
-    element.innerHTML = navbar
+//Função para pegar os elementos
+function getElement(elementSelector) {
+    return document.querySelector(elementSelector)
 }
+
+//Função para preencher do conteúdo do elemento
+function setContentElement(elementSelector, content) {
+    const element = getElement(elementSelector)
+    if (element) {
+        element.innerHTML = content
+    }
+}
+
